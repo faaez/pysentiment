@@ -12,7 +12,7 @@ class LM(BaseDict):
     The terms for the dictionary are stemmed by the default tokenizer.
     '''
     
-    PATH = '%s/LM.csv' % STATIC_PATH
+    PATH = '%s/LM_2014.csv' % STATIC_PATH
     
     def init_dict(self):
         data = pd.read_csv(self.PATH)
